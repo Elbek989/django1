@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}} va {{title1}} va {{title3}}</title>
+</head>
+<body>
+<h1> Category haqida </h1>
+{% for item in cat %}
+<p> {{item.title}} </p>
+<hr>
+{% endfor %}
+<h1> Conutry haqida</h1>
+{% for item in con %}
+<p> {{item.title}}</p> <p> {{item.region}}</p>
+<hr>
+{% endfor %}
+<h1> Water haaida </h1>
+{% for item in wat %}
+<p> {{item.title}}</p> <p> {{item.created_ed}}</p> <p> {{item.end_ed}}</p>
+<hr>
+{% endfor %}
+</body>
+</html>

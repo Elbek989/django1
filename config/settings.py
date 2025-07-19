@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'configapp',
     'appppppp',
     'app_nomi',
+    'app3',
 ]
 
 MIDDLEWARE = [
