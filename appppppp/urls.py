@@ -6,6 +6,6 @@ from .views import index2
 urlpatterns = [
     path('index',index),
     path('index1',index1),
-    path('index2',index2),
+    path('index3',index3),
 
 ]
